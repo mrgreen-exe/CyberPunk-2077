@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'Arkhangelsk';
+  src: url('fonts/Archangelsk.ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a:link, a:visited,a:hover,a:active,a:focus{text-decoration: none;}
+
+ul, li {
+  list-style-type: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1, h2, h3 {
+  font-family: 'Arkhangelsk';
+  font-weight: 700;
+  color: white;
+  font-size: 70px;
+}
+
+
+.header {
+  background-image: url(images/1.jpg);
+  width: 1920px;
+  height: 1000px;
+  position: relative;
+}
+.container{
+  width: 1280px;
+  margin: 0 auto;
+}
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.logo {
+}
+.social_list {
+  display: flex;
+  gap: 40px;
+}
+.social_item {
+}
+.social-icon {
+}
+
+.more_info{
+  width: 624px;
+  height: 369px;
+  background-color: #F8F200;
+  position: absolute;
+  right: 320px;
+  bottom: 0;
+}
+.info-text{
+  color: #000;
+  font-family: 'Arkhangelsk';
+  font-size: 62px;
+  font-weight: 400;
+  position: absolute;
+  top: 70px;
+  left: 70px;
+}
+.more_info-link{
+  position: absolute;
+  left: 120px;
+  bottom: 89px;
+  padding: 19px 50px;
+  background-color: #000;
+  color: #F8F200;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.discription_game{
+  background-color: #fff;
+}
+
+.section_game {
+}
+.game_container {
+  margin-top: 70px;
+}
+.game_title {
+  color: #000;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.discription_game {
+  margin-top: 25px;
+  color: #777777;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+}
+.cyberpunk {
+  color: #52BEDC;
+}
+
+.game_gallery {
+  display: flex;
+  margin-top: 70px;
+  gap: 25px;
+}
+.game_gallery-left {
+  display: flex;
+  flex-wrap: wrap;
+  width: 460px;
+  gap: 25px;
+}
+.game_gallery-right {
+}
+
+
+.section_share {
+  background-color: #000;
+}
+.decorotive_line {
+  margin-top: 70px;
+}
+.decorotive_line-image {
+}
+.share_logo{
+  position: relative;
+  display: inline-block;
+  width: 132px;
+  height: 132px;
+}
+.share_image{
+}
+.logo_text{
+  position: absolute;
+  color: #F8F200;
+  font-family: 'Archangelsk';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  transform: rotate(-45deg);
+  right: 33px;
+  top: 43px;
+}
+
+
+
+.clip_path{
+  clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
+}
+@media screen and (max-width: 1024px) {
+  .header_container {
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header_container{
+    width: 320px;
+  }
+
+}
+.visually_hidden{
+  display: none;
+}
