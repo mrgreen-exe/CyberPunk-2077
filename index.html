@@ -31,7 +31,7 @@
   <section class="section_game">
     <div class="container game_container">
       <h2 class="game_title">Найт-Сити изменит тебя навсегда!</h2>
-      <p class="discription_game"><span class="cyberpunk">
+      <p class="discription_game">
         <span class="cyberpunk">Cyberpunk 2077</span> — приключенческая ролевая игра, действие которой 
         происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего.
         Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. 
@@ -51,23 +51,102 @@
     </div>
   </section>
 
-
-
   <section class="section_share">
     <div class="decorotive_line">
       <img class="decorotive_line-image" src="images/elements/decorotiveLine.png" alt="decorotive_line" width="100%">
     </div>
     <div class="share_container container">
-      <div class="share_logo">
-        <img class="share_image" src="images/elements/share.svg" alt='Logo Share'>
-        <span class="logo_text">акция</span>
+      <div class="share_title">
+        <div class="share_logo">
+          <img class="share_image" src="images/elements/share.svg" alt='Logo Share'>
+          <span class="logo_text">акция</span>
+        </div>
+        <h2 class="visually_hidden">Акция Cyberpunk 2077</h2>
+        <p class="share_title-text">Играй и выйгрывай!</p>
       </div>
-      <h2 class="visually_hidden">Акция Cyberpunk 2077</h2>
+        <p class="share_text">Играй в <span class="cyberpunk">Cyberpunk 2077</span> и получи возможность выиграть консоль 
+          <span class="cyberpunk">Xbox Series X</span> или
+          <span class="cyberpunk">Sony PlayStation 5!</span>
+          Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)
+        </p>
+      <div class="form_container">
+        <form class="form" action="https://echohtmlacademy.com" method="post">
+          <p class="form_name"><input class="form_name-field" type="text" placeholder="Как тебя зовут?"></p>
+          <p class="form_email"><input class="form_email-field" type="email" placeholder="Твой e-mail">
+          </p>
 
-      <p class="share_title">Играй и выйгрывай!</p>
-      <p class="share_text">Играй в Cyberpunk 2077 и получи возможность выиграть консоль Xbox Series X или Sony PlayStation 5!
-        Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)
-      </p>
+          <div class="form_file">
+              <label class="form_file-label" for="form_file">
+              <span class="form_file-text">Прикрепить скриншот</span>
+              <span class="form_file-formats">.png / .jpg / .pdf</span>
+              <input id="form_file" type="file">
+              </label>
+          </div>
+          <button class="button_share" type="submit"><span>Отправить</span></button>
+          <div class="share_checkbox">
+            <label class="label_checkbox">
+              <input class="input_checkbox" type="checkbox" id="checkbox">
+              <div class="checkbox_fake"></div>
+              <span class="checkbox_text">Согласен на обработку персональных данных</span>
+            </label>
+          </div>
+        </form>
+        <div class="consoles">
+          <div class="xbox console_size">
+            <img class="xbox_image" src="images/shareimages/xbox.png" alt="Xbox image">
+          </div>
+          <div class="playstation console_size">
+            <img class="playstation_image" src="images/shareimages/Playstation.png" alt="Playstation image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="monitor">
+    <div class="decorotive_line-revers">
+      <img class="decorotive_line-revers-image" src="images/elements/decorotiveLineRevers.png" alt="decorotive line">
+    </div>
+
+    <div class="container">
+      <div class="container_hp">
+        <div class="hpmonitor">
+          <img class="hpmonitor_image" src="images/monitor.png" alt="Monitor HP">
+          <div class="hpmonitor_items">
+            <div class="xp_logo">
+                <img class="xp_logo-img" src="images/icons/hpLogo.svg" alt="XP Logo">
+            </div>
+            <div class="krest">
+              <img class="krestImg" src="images/icons/krest.svg" alt="Krest">
+            </div>
+            <div class="logo">
+              <img class="monitor_logo-img" src="images/logo.svg" alt="Logo Cyberpunk">
+            </div>
+          </div>
+        </div>
+
+        <div class="monitor_discription">
+          <h2 class="monitor_title">
+            Полное погружение вместе с HP
+          </h2>
+          <p class="monitor_text">
+            Погрузись в современные экшен-игры с реалистичным изображением с 
+            помощью монитора с диагональю 23,8 дюйма, созданном для отображения 
+            максимально насыщенных цветов. Успевай реагировать на любые события с 
+            временем отклика 1 мс и частотой в 144 Гц!
+          </p>
+          <ul class="monitor_list">
+            <li class="monitor_item"><span>Яркие насыщенные цвета</span></li>
+            <li class="monitor_item"><span>Кристальная четкость изображения</span></li>
+            <li class="monitor_item"><span>Быстрые движения и плавный геймплей</span></li>
+          </ul>
+          <div class="monitor_button">
+            <a class="monitor_button-link" href="#">
+              Подробнее
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </body>
